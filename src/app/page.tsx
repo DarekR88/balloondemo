@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import goodImg from "../../public/images/goodBalloon.jpg";
+import cloudAIcon from "../../public/icons/cloudA.svg";
+import cloudBIcon from "../../public/icons/cloudB.svg";
 
 export default function Home() {
   return (
     <main className="w-full">
-      <div className="flex lg:flex-row flex-col w-full lg:h-[500px] lg:overflow-hidden">
+      <div className="flex bg-[#E9FBFF] lg:flex-row flex-col w-full lg:h-[500px] lg:overflow-hidden">
         <div className="flex lg:w-1/2 justify-center items-center overflow-hidden">
           <div className="relative z-50 overflow-hidden border-l-8 border-b-8 border-t-2 border-r-2 shadow-lg border-cEight rounded-md bg-[#FFD9FF] lg:rotate-[-8deg]">
             <div className="flex overflow-hidden rounded-md p-7">
@@ -83,7 +85,34 @@ export default function Home() {
         <div className="absolute z-10 bottom-[-100px] left-[-100px] h-[250px] w-[250px] bg-cFour rounded-full"></div>
         <div className="absolute z-10 bottom-[-100px] left-[-100px] h-[200px] w-[200px] bg-cFive rounded-full"></div>
       </div>
-      <div className="relative z-20 bg-white h-[500px]"></div>
+      <div className="relative z-20 bg-white lg:h-[500px]">
+        <div className="flex justify-center gap-10 lg:h-[300px] items-center text-white flex-col lg:flex-row max-w-screen mx-5 lg:mx-20 lg:gap-10 mt-[75px] m-auto">
+          <div className="flex flex-col lg:py-0 py-7 gap-10 lg:h-full justify-center items-center bg-cBEight rounded-lg lg:w-1/4 w-full">
+            <h1 className="text-7xl font-Dancing">Book Now!</h1>
+            <Link href={"/contact"} className="p-3 font-Tilt text-black bg-white rounded-full">
+              Schedule Today!
+            </Link>
+          </div>
+          <div className="flex flex-col lg:py-0 py-7 gap-10 lg:h-full justify-center items-center bg-cBFive rounded-lg lg:w-1/4 w-full">
+            <h1 className="text-7xl font-Chewy font-black">Gallery</h1>
+            <Link href={"/contact"} className="p-3 font-Tilt text-black bg-white rounded-full">
+              Balloon Magic!
+            </Link>
+          </div>
+          <div className="flex flex-col lg:py-0 py-7 gap-10 lg:h-full justify-center items-center bg-cBThree rounded-lg lg:w-1/4 w-full">
+            <h1 className="text-7xl font-extrabold font-Tilt">Sale!</h1>
+            <Link href={"/contact"} className="p-3 font-Tilt text-black bg-white rounded-full">
+              Get Deals!
+            </Link>
+          </div>
+          <div className="flex flex-col lg:py-0 py-7 gap-10 lg:h-full justify-center items-center bg-cBSeven rounded-lg lg:w-1/4 w-full">
+            <h1 className="text-5xl font-Dancing">Party Planning</h1>
+            <Link href={"/contact"} className="p-3 font-Tilt text-black bg-white rounded-full">
+              Let&#39;s Boogie!
+            </Link>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
