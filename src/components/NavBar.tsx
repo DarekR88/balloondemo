@@ -56,7 +56,7 @@ export function NavBar() {
         <p className="text-white font-Tilt text-xl font-bold">25&#37; OFF Summer Sale 25&#37;</p>
       </div>
       <div className="flex flex-col justify-center items-center h-[175px]">
-        <p className="font-black font-Chewy text-8xl">
+        <p className="font-black font-Chewy text-7xl lg:text-8xl">
           <span className="text-cBOne">B</span>
           <span className="text-cBTwo">A</span>
           <span className="text-cBThree">L</span>
