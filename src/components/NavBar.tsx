@@ -52,12 +52,28 @@ export function NavBar() {
           About
         </Link> */}
       </div>
-      <header className="relative bg-cThree text-black flex flex-wrap gap-5 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-32">
-        <Link href={"/"} className="font-Anton flex flex-col tracking-widest text-xl z-0 px-3">
+      <div className="flex flex-col justify-center items-center h-[40px] bg-cBOne">
+        <p className="text-white font-Tilt text-xl font-bold">25&#37; OFF Summer Sale 25&#37;</p>
+      </div>
+      <div className="flex flex-col justify-center items-center h-[175px]">
+        <p className="font-black font-Chewy text-8xl">
+          <span className="text-cBOne">B</span>
+          <span className="text-cBTwo">A</span>
+          <span className="text-cBThree">L</span>
+          <span className="text-cBFour">L</span>
+          <span className="text-cBFive">O</span>
+          <span className="text-cBSix">O</span>
+          <span className="text-cBSeven">N</span>
+          <span className="text-cBEight">S</span>
+        </p>
+        <h1 className="font-Dancing text-5xl">Studio</h1>
+      </div>
+      <header className="relative bg-cSeven text-cBSeven font-Tilt font-bold flex flex-wrap gap-5 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 h-24 lg:h-12">
+        {/* <Link href={"/"} className="font-Anton flex flex-col tracking-widest text-xl z-0 px-3">
           <h1 className="lg:text-7xl text-2xl">Look Sharp</h1>
           <p className="text-base text-right">Men's Barber</p>
           
-        </Link>
+        </Link> */}
         {/* <a
           href="tel:408-761-4606"
           target="_blank"
@@ -78,34 +94,34 @@ export function NavBar() {
         </a>
 
         <div className="hidden lg:flex gap-6">
-          <Link className="text-xl relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/">
+          <Link className="text-xl relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cBSeven after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/">
             Home
           </Link>
-          <Link className="text-xl relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/services">
+          <Link className="text-xl relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cBSeven after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/services">
             Services
           </Link>
-          <Link className="text-xl relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/contact">
+          <Link className="text-xl relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cBSeven after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/contact">
             Contact
           </Link>
-          {/* <Link className="text-xl relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/about">
+          <Link className="text-xl relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cBSeven after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/about">
             About
-          </Link> */}
+          </Link>
         </div>
         <div className="flex gap-4 px-2 z-0">
-          {/* <a
+          <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
             rel="noreferrer noopener"
           >
             <Image src={InstaIcon} alt="pfp" width={27} />
-          </a> */}
-          {/* <a
+          </a>
+          <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
             rel="noreferrer noopener"
           >
             <Image src={FacebookIcon} alt="pfp" width={25} />
-          </a> */}
+          </a>
           {/* <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"

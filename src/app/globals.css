@@ -1,16 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Dancing+Script:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Dancing+Script:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Neon&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --cOne: #fa686a;
-  --cTwo: #ff8352;
-  --cThree: #fecb02;
-  --cFour: #57c78b;
-  --cFive: #71d6ca;
-  --cSix: #4d9de0;
-  --cSeven: #7776bc;
-  --cEight: #fec1c9;
-}
+  --cOne: #FFADAD;
+  --cTwo: #FFD6A5;
+  --cThree: #FDFFB6;
+  --cFour: #CAFFBF;
+  --cFive: #9BF6FF;
+  --cSix: #A0C4FF;
+  --cSeven: #BDB2FF;
+  --cEight: #FFC6FF;
+  --cBOne: #F00314;
+  --cBTwo: #FF8019;
+  --cBThree: #FAE603;
+  --cBFour: #28E10A;
+  --cBFive: #3BB5FF;
+  --cBSix: #0500C7;
+  --cBSeven: #5C03FA;
+  --cBEight: #DE00ED;
+};
+
+body {
+  font-family: 'Poppins', sans-serif;
+};
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', sans-serif;
+};
