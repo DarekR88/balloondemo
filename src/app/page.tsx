@@ -5,15 +5,15 @@ import goodImg from "../../public/images/goodBalloon.jpg";
 export default function Home() {
   return (
     <main className="w-full">
-      <div className="flex lg:flex-row flex-col-reverse w-full lg:h-[500px] overflow-hidden">
+      <div className="flex lg:flex-row flex-col w-full lg:h-[500px] lg:overflow-hidden">
         <div className="flex lg:w-1/2 justify-center items-center overflow-hidden">
-          <div className="relative z-50 overflow-hidden border-l-8 border-b-8 border-cSeven rounded-md bg-cEight rotate-[-8deg]">
+          <div className="relative z-50 overflow-hidden border-l-8 border-b-8 border-cEight rounded-md bg-white lg:rotate-[-8deg]">
             <div className="flex overflow-hidden rounded-md p-7">
               <Image src={goodImg} alt="" height={300} width={500} />
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-8 lg:w-1/2 justify-center items-center w-full">
+        <div className="flex flex-col z-40 lg:mt-0 mt-5 gap-8 lg:w-1/2 justify-center items-center w-full">
           <h1 className="font-Dancing text-7xl">Let&#39;s</h1>
           <h1 className="text-9xl font-black font-Chewy">
             <span className="text-cBOne">P</span>
