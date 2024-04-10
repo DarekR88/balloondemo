@@ -7,13 +7,13 @@ export default function Home() {
     <main className="w-full">
       <div className="flex lg:flex-row flex-col w-full lg:h-[500px] lg:overflow-hidden">
         <div className="flex lg:w-1/2 justify-center items-center overflow-hidden">
-          <div className="relative z-50 overflow-hidden border-l-8 border-b-8 border-cEight rounded-md bg-white lg:rotate-[-8deg]">
+          <div className="relative z-50 overflow-hidden border-l-8 border-b-8 border-t-2 border-r-2 shadow-lg border-cEight rounded-md bg-[#FFD9FF] lg:rotate-[-8deg]">
             <div className="flex overflow-hidden rounded-md p-7">
               <Image src={goodImg} alt="" height={300} width={500} />
             </div>
           </div>
         </div>
-        <div className="relative flex flex-col z-40 lg:mt-0 mt-5 gap-8 lg:w-1/2 justify-center items-center w-full">
+        <div className="relative flex flex-col z-40 lg:mt-0 mt-5 gap-8 lg:w-1/3 justify-center items-center w-full">
           <h1 className="font-Dancing text-7xl">Let&#39;s</h1>
           <h1 className="text-9xl font-black font-Chewy">
             <span className="text-cBOne">P</span>
@@ -31,6 +31,7 @@ export default function Home() {
           </Link>
           <div className="absolute top-[20px] right-[20px] w-[100px]">
             <svg
+              fill="inherit"
               version="1.1"
               id="_x32_"
               xmlns="http://www.w3.org/2000/svg"
