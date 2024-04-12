@@ -11,6 +11,7 @@ import balloonAIcon from "../../public/icons/balloonA.svg";
 import balloonBIcon from "../../public/icons/balloonB.svg";
 import balloonCIcon from "../../public/icons/balloonC.svg";
 import balloonDIcon from "../../public/icons/balloonD.svg";
+import starIcon from "../../public/icons/star-svgrepo-com.svg";
 
 export default function Home() {
   return (
@@ -69,7 +70,7 @@ export default function Home() {
         <div className="absolute z-10 lg:bottom-[-100px] bottom-[200px] left-[-100px] h-[250px] w-[250px] bg-cFour rounded-full"></div>
         <div className="absolute z-10 lg:bottom-[-100px] bottom-[200px] left-[-100px] h-[200px] w-[200px] bg-cFive rounded-full"></div>
       </div>
-      <div className="relative mb-[50px] z-40 bg-white lg:h-[500px]">
+      <div className="relative mb-[50px] lg:mb-[0px] z-40 bg-white lg:h-[500px]">
         <div className="flex justify-center gap-10 lg:h-[400px] items-center text-white flex-col lg:flex-row max-w-screen mx-5 lg:mx-20 lg:gap-10 mt-[75px] m-auto">
           <div className="flex flex-col lg:py-0 py-7 gap-5 lg:h-full justify-center items-center bg-cBEight rounded-lg lg:w-1/4 w-full">
             <h1 className="text-6xl font-Dancing">Book Now!</h1>
@@ -127,8 +128,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-screen flex text-center justify-center bg-[#FFD4FF]">
-        <h1 className="text-7xl mt-[20px] font-Tilt font-extrabold">
+      <div className="w-screen flex flex-col mb-[100px] pb-[50px] text-center justify-center bg-[#FFD4FF]">
+        <h1 className="text-7xl flex flex-row mb-[20px] m-auto mt-[50px] font-Chewy font-extrabold">
           <span className="text-cBOne">R</span>
           <span className="text-cBTwo">E</span>
           <span className="text-cBEight">V</span>
@@ -136,12 +137,59 @@ export default function Home() {
           <span className="text-cBFive">E</span>
           <span className="text-cBSix">W</span>
           <span className="text-cBSeven">S</span>
+          <span>
+            <Image src={balloonDIcon} alt="balloon" height={75} width={75} />
+          </span>
         </h1>
-        <div className="flex flex-col lg:flex-row gap-12">
-          <div className="flex w-1/3">
-            <p></p>
+        <div className="text-2xl font-Tilt text-cBSeven flex flex-col lg:flex-row gap-10 lg:gap-16 mx-10">
+          <div className="flex flex-col w-full lg:w-1/3 p-5">
+            <p className="mb-[10px] text-3xl font-bold">Party Masterpiece!</p>
+            <p className="mb-[10px]">
+              Everyone loved the balloon wall. It really added a cool element to
+              the party. The company also provided loose balloons for kids to
+              play with. All in all a really cool experience.
+            </p>
+            <p>-Michael Johnson</p>
+            <div className="flex flex-row m-auto">
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+            </div>
           </div>
-
+          <div className="flex flex-col w-full lg:w-1/3 p-5">
+            <p className="mb-[10px] text-3xl font-bold">Party Masterpiece!</p>
+            <p className="mb-[10px]">
+              Everyone loved the balloon wall. It really added a cool element to
+              the party. The company also provided loose balloons for kids to
+              play with. All in all a really cool experience.
+            </p>
+            <p>-Michael Johnson</p>
+            <div className="flex flex-row m-auto">
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+            </div>
+          </div>
+          <div className="flex flex-col w-full lg:w-1/3 p-5">
+            <p className="mb-[10px] text-3xl font-bold">Party Masterpiece!</p>
+            <p className="mb-[10px]">
+              Everyone loved the balloon wall. It really added a cool element to
+              the party. The company also provided loose balloons for kids to
+              play with. All in all a really cool experience.
+            </p>
+            <p>-Michael Johnson</p>
+            <div className="flex flex-row m-auto">
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+              <Image src={starIcon} alt="star" height={40} width={40} />
+            </div>
+          </div>
         </div>
       </div>
     </main>
